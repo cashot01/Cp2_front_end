@@ -31,9 +31,16 @@ a{
     color: black;
 }
 
+img{
+    min-width: 200px;
+    min-height: 200px;
+    padding: 5px;
+}
+
 .destaque{
     display: flex;
     justify-items: auto;
+    
 }
 
 h2{
@@ -41,8 +48,3 @@ h2{
     margin: 5px;
 }
 
-img{
-    min-width: 200px;
-    min-height: 200px;
-    padding: 5px;
-}
