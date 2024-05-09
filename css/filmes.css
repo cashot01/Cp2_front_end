@@ -1,0 +1,17 @@
+
+
+.filmes{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+}
+
+.filmes a{
+    font-size: 2em;
+    margin: 20px;
+}
+
+iframe{
+    display: block;
+}
