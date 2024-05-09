@@ -1,0 +1,8 @@
+
+
+.filme1, .filme2, .filme3, .filme4, .filme5{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-width: 55vw;
+}
