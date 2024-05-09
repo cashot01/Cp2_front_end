@@ -42,7 +42,7 @@ h2{
 }
 
 img{
-    width: 200px;
-    height: 200px;
+    min-width: 200px;
+    min-height: 200px;
     padding: 5px;
 }
