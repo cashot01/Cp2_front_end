@@ -20,7 +20,12 @@
     display: flex;
     justify-items: center;
 }
-
+.serie{
+    text-align: center;
+    margin:10px 0;
+    min-width: 80px;
+    min-height: 80px;
+}
 .elenco{
     display: flex;
     padding: 10px;

@@ -16,6 +16,16 @@
     color: #161819;
 }
 
+img{
+    border-radius: 15px;
+}
+
+.serie{
+    text-align: center;
+    margin:10px 0;
+    min-width: 80px;
+    min-height: 80px;
+}
 
 .Sinopse{
     display: flex;
@@ -27,7 +37,6 @@
     padding: 10px;
     margin: 10px;
 }
-
 
 .elenco ul{
     display: flex;
@@ -41,4 +50,5 @@
 
 iframe{
     margin: 10px;
+    text-align: center;
 }
