@@ -8,9 +8,9 @@
 /* Estilo para o contêiner do formulário */
 .formulario {
     min-width: 70vw;
+    color: "#003063";
     margin: 20px;
-    padding: 10px;
-    background-color: #f4f4f4;
+    padding: 10px 10px 15px 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -22,7 +22,6 @@ form{
 }
 
 label {
-    
     margin-bottom: 5px;
     font-weight: bold;
 }
@@ -30,7 +29,7 @@ label {
 input[type="text"], input[type="email"], input[type="tel"],  textarea {
     width: 100%;
     padding: 10px;
-    margin: 8px;
+    margin: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     
@@ -44,6 +43,7 @@ textarea{
 .botaoEnviar{
     width: 100%;
     padding: 10px;
+    margin:20px 0 0 0 ;
     background-color: #397CC0;
     border: 2px solid  #007bff;
     color: #fff;
