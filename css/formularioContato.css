@@ -1,11 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+
+/* Estilo para o contêiner do formulário */
+.formulario {
+    min-width: 70vw;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 form{
+    min-width: 70%;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
-    height: 100%;
+}
+
+label {
+    
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="tel"],  textarea {
+    width: 100%;
     padding: 10px;
-    margin: 10px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+textarea{
+    max-width: 100%;
+}
+
+
+.botaoEnviar{
+    width: 100%;
+    padding: 10px;
+    background-color: #397CC0;
+    border: 2px solid  #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.botaoEnviar:hover {
+    background-color: #007bff ;
 }
 
