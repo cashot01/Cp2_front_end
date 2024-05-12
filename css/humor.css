@@ -1,5 +1,12 @@
 
 
+.Voltar{
+    padding: 5px;
+    margin: 10px;
+    border: 3px solid lightskyblue;
+    color: aliceblue;
+}
+
 .filme1, .filme2, .filme3, .filme4, .filme5{
     display: flex;
     flex-direction: column;
