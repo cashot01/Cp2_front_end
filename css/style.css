@@ -59,7 +59,7 @@ img{
     margin:10px;
 }
 
-.DadosEmpresa p{
+.DadosEmpresa p,.DadosEmpresa{
     border: 0px solid white;
     background-color: #001029;
     border-radius: 10px;
@@ -67,7 +67,7 @@ img{
     padding:20px;
 }
 
-.Vantagens p{
+.Vantagens,.Vantagens p{
     border: 0px solid white;
     background-color: #001029;
     border-radius: 10px;
