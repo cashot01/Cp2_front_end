@@ -15,10 +15,17 @@
     box-shadow: 0px 1px 15px #161819;
     color: #161819;
 }
+
+.container{
+    align-items: center;
+}
+
+
 .filme1, .filme2, .filme3, .filme4, .filme5{
     display: flex;
     flex-direction: column;
     padding: 10px;
     max-width: 55vw;
     text-align: center;
+    margin: auto;
 }
