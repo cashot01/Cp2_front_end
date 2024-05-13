@@ -20,6 +20,19 @@
     align-items: center;
 }
 
+button{
+    background-color: black;
+    color:white;
+    border:1px solid white;
+    padding:10px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #0066ff;
+    border:1px solid #0066ff
+}
+
 
 .filme1, .filme2, .filme3, .filme4, .filme5{
     display: flex;
